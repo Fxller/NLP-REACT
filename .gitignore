@@ -1,0 +1,81 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+*.env
+
+# Python caching and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# Data files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.jsonl
+
+# Data directory (raw / processed datasets)
+data/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Machine Learning Models & Heavy Binaries
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.pb
+*.pt
+*.pth
+*.onnx
+*.bin
+*.model
+*.safetensors
+
+# Model directories
+models/
+
+# Training logs & outputs
+*.log
+runs/
+logs/
+wandb/
+mlruns/
+output/
+outputs/
+checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
