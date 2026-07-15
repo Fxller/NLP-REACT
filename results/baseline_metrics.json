@@ -1,0 +1,18 @@
+[
+  {
+    "Modello": "TF-IDF + SVM",
+    "Accuracy": 0.7709611451942741,
+    "F1 (macro)": 0.767320922976169,
+    "F1 (weighted)": 0.7673209229761689,
+    "Precision (macro)": 0.7659957995224501,
+    "Recall (macro)": 0.7709611451942741
+  },
+  {
+    "Modello": "TF-IDF + XGBoost",
+    "Accuracy": 0.8040218132242672,
+    "F1 (macro)": 0.7956902546099635,
+    "F1 (weighted)": 0.7956902546099635,
+    "Precision (macro)": 0.7993642793205687,
+    "Recall (macro)": 0.8040218132242672
+  }
+]
