@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divR0L3DJI8HQREWYS"></div>
+        <div class="lime top_div" id="top_div2RI9QAC5H816G53"></div>
         
         <script>
-        var top_div = d3.select('#top_divR0L3DJI8HQREWYS').classed('lime top_div', true);
+        var top_div = d3.select('#top_div2RI9QAC5H816G53').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["negativo", "neutro", "positivo"], [0.001458953134715557, 0.21410958468914032, 0.7844314575195312]);
+            var pp = new lime.PredictProba(pp_svg, ["negativo", "neutro", "positivo"], [0.001074227155186236, 0.08739954233169556, 0.9115262031555176]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["negativo", "neutro", "positivo"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["great", -0.19997662519051226], ["not", 0.052941950738512614], ["NOT_skin", -0.030657204752685404], ["product", -0.020129325676513727], ["NOT_will", 0.006035999562274611], ["NOT_does", 0.005980249228955615], ["NOT_morning", 0.0037915107269237015], ["NOT_months", 0.003594227267038377], ["NOT_lasts", 0.0033324196231481877], ["NOT_night", 0.0026278359975625406]], 1, exp_div);
+                exp.show([["love", -0.3027273191484823], ["full", 2.9037875913140278e-05], ["cover", 2.712070594293364e-05], ["foundation", 2.6540997327315202e-05], ["uet", 2.097444253785942e-05], ["lightweight", -3.7376406875790227e-06]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_text([["great", 0, -0.19997662519051226], ["not", 39, 0.052941950738512614], ["not", 60, 0.052941950738512614], ["NOT_skin", 21, -0.030657204752685404], ["product", 6, -0.020129325676513727], ["NOT_will", 51, 0.006035999562274611], ["NOT_does", 30, 0.005980249228955615], ["NOT_morning", 88, 0.0037915107269237015], ["NOT_months", 120, 0.003594227267038377], ["NOT_lasts", 110, 0.0033324196231481877], ["NOT_night", 100, 0.0026278359975625406]], 1, "great product normal NOT_skin NOT_does not NOT_dry NOT_will not NOT_overhydrate NOT_use NOT_morning NOT_night NOT_lasts NOT_months", raw_div, true);
+            exp.show_raw_text([["love", 0, -0.3027273191484823], ["full", 21, 2.9037875913140278e-05], ["cover", 26, 2.712070594293364e-05], ["foundation", 32, 2.6540997327315202e-05], ["uet", 17, 2.097444253785942e-05], ["lightweight", 5, -3.7376406875790227e-06]], 1, "love lightweight uet full cover foundation", raw_div, true);
             
         </script>
         </body></html>
